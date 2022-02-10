@@ -1,0 +1,17 @@
+/**
+ * @challenge: Entrega final de proyecto final
+ * 
+ * @version:  4.0.0
+ * @author: Jordan Andres Rincon Contreras.
+ * @fecha: 09/02/2022
+ *
+ * History:
+ *  -v1.1.0--- Se crea simulador de organizacion de agenda
+ *  -v1.2.0--- Se inlcuye algoritmo con manejo con el DOM
+ *  -v1.3.0--- Se inlcuye deteccion de eventos
+ *  -v2.0.0--- Se hace segunda entrega de trabajo final
+ *  -v2.1.0--- Integracion de manejo del DOM y deteccion de eventos con jquery
+ *  -v2.2.0--- Incorporacion de animaciones en Jquery
+ *  -v2.3.0--- Incorporacionde metodo AJAX con jquery
+ *  
+ */

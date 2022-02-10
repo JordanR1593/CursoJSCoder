@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+.title{
+    text-align: center;
+
+}
+
+.Calendar_Month{
+    background-color: green;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+.order{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 1px;
+    margin:  auto;
+    justify-items: center;
+}
+
+.TitlePage{
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+.sectionicono{
+    display: flex;
+    justify-content: end;
+}
+.icono{
+    background-color: white;
+    
+
+}
+.oculto{
+    display: none;
+}
+
+.yellow{
+    background-color: yellow;
+    color: black;
+}
+.calendarF{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 50%; 
+    padding-bottom: 5px;
+    margin:10px auto;
+    color: black;
+    .calendarPpal{
+        width: 500px;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    .calendarSecond{
+        font-size: 10px;
+        width: 50%;
+        display: grid;
+        border-radius: 20px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat((4,1fr));
+        grid-column-gap: 2px;
+        align-items: center;
+        .calendar{
+            background-color: rgba(0, 0, 0, 0.666);
+            margin:5px auto;
+            color: white;
+            height:180px;
+            width:200px;
+            
+        }
+        
+    }
+}
+.over{
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    
+    .popup{
+        background-color: #f8f8f8;
+        box-shadow: 0px 0px 5px 0px rgba($color: #000000, $alpha: 0.3);
+        border-radius: 3px;
+        padding: 20px;
+        text-align: center;
+        width: 600px;
+        color: black;
+        display: block;
+         .contenedor-input input{
+            width: 50%;
+            
+            height: 30px;
+            line-height: 52px;
+            text-align: center;
+            border: 1px solid #BBBBBB;
+            display: block;
+            margin:5px  auto;
+        }
+        .contenedor-input{
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+    }
+    
+}
+.active{
+    visibility: visible;
+    
+}
+.popup h3{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* opacity: 0; */
+}
+.popup h4{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    /* opacity: 0; */
+}
+
+.popup .btn-cerrar-popup{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #BBBBBB;
+    transition: .3s ease all;
+}
+.popup .btn-cerrar-popup:hover {
+    color: black;
+}
+
+.Event{
+    display: block;
+    margin: 20px auto;
+}
+.Calendar_Year{
+    margin: 20px auto ;
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+}
+#datoMes{
+    color: black;
+}
+#datoYear{
+    color: black;
+}
+.btn-abrir-popup{
+    color: black;
+}
+.colorDay{
+    background-color: red;
+    border-radius: 100px;
+}
+.hola{
+    text-align: center;
+}
+.list-group{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.overflowInactive{
+    overflow: hidden;
+}
